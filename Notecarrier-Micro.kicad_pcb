@@ -1453,7 +1453,7 @@
 			(uuid "83678b16-26aa-4883-84c2-a6f7f434939a")
 		)
 		(embedded_fonts no)
-		(model "${BLUES_KICAD_LIB_DIR}/3d-models/J-75-0050-MOS-M2-E.step"
+		(model "${KIPRJMOD}/J-75-0050-MOS-M2-E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1461,7 +1461,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 		(model "${BLUES_KICAD_LIB_DIR}/3d-models/NOTECARD_STEP.step"
@@ -1473,6 +1473,17 @@
 			)
 			(rotate
 				(xyz -180 180 0)
+			)
+		)
+		(model "${KIPRJMOD}/Note card-PCB.step"
+			(offset
+				(xyz 15 0.5 3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
 			)
 		)
 	)
